@@ -1,0 +1,75 @@
+.DonateBar{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+}
+.DonateBar>button{
+    width: 212px;
+    background: #0E152D;
+    color: white;
+    border: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.donate-checkbox{
+    width: 654px;
+    background: linear-gradient(180deg, #0E152D 0%, #404354 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 25px;
+color: #FFFFFF;
+}
+.donate-checkbox>div>input{
+    width: 20px;
+    height:20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.Donate-amount{
+    width: 414px;
+    background: #0E152D;
+    color: white;
+    border: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Donate-amount>input{
+    width: 181px;
+    height: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    border: none;
+    color: #999999;
+    margin-left: 26px;
+    text-align: center;
+    
+}
+.Donate-amount>button{
+    width: 212px;
+    background: #0E152D;
+    color: white;
+    border: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    cursor: pointer;
+}

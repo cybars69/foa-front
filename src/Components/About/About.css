@@ -1,0 +1,11 @@
+.accordion{
+    max-width: 780px;
+    height: 600px;
+}
+.accordion-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    margin-bottom: 123px;
+}

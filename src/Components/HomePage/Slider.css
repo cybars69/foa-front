@@ -1,0 +1,125 @@
+.event-slider{
+    height: 300px;
+    /* background-color: blanchedalmond; */
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 112px;
+  
+}
+.slider-title{
+    font-family: Monument Extended;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 100%;
+color: #1F1A1A;
+margin-left: 200px;
+margin-bottom:51px ;
+margin-top: 112px;
+}
+.Slider {
+    height: 300px;
+    display: flex;
+    
+    position: absolute;
+    left: 0;
+    transition: all 1s ease-out;
+   
+}
+.Container {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.item {
+    width: 980px;
+    height: 300px;
+    background: #2E59F3;
+    border-radius: 15px;
+    
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+   
+}
+.slider-items{
+    width: 250px;
+height: 250px;
+    position: relative; 
+    border-radius: 15px;
+    margin: 25px 54px 25px 25px;
+}
+.left{
+    position: relative;
+    width: 900px;
+    height: 300px;
+}
+.eventtitle{
+    font-family: Gilroy;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 100%;
+color: #FFFFFF;
+margin-bottom: 26px;
+margin-top: 37px;
+}
+.left>div{
+    position: absolute;
+}
+.eventdesc{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 125%;
+    width: 551px;
+    margin-bottom: 26px;
+    letter-spacing: 0.05em;
+    
+    color: #FFFFFF;
+}
+.blue-box{
+    width: 10px;
+    height: 80px;
+    background: #00C1D4;
+    margin-right: 15px;
+}
+.left-details{
+    display: flex;
+    margin-bottom: 51px;
+    bottom: 0;
+}
+.arrow-left{
+    height: 50px;
+    position: absolute;
+    cursor: pointer;
+    left: 100px;
+    transform: rotateY(180deg);
+}
+.arrow-right{
+    height: 50px;
+    position: absolute;
+    cursor: pointer;
+    right: 100px;
+}
+.eventauther{
+    font-family: Gilroy;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 125%;
+/* identical to box height, or 22px */
+
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+}
+.right{
+    margin-right: 88px;
+}

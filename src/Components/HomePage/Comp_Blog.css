@@ -1,0 +1,145 @@
+/* competition cards styles */
+
+.comp-cards{
+    display: flex;
+    margin-top: 92px;
+    margin-bottom: 91px;
+    justify-content: space-between;
+    
+}
+ .comp-cards>div{
+    position: relative;
+    cursor: pointer;
+}
+
+.comp-cards>div>img{
+    width: 358px;
+    height: 200px;
+    z-index: 0;
+    position: absolute;
+}
+
+
+.comp-cards>div>div{
+    
+    z-index: 1;
+    width: 358px;
+    height: 200px;
+    position: relative;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.comp-cards>div>div:hover{
+    background-color: rgb(42, 42, 42);
+    opacity: 0.7;
+    font-size: 30px;
+}
+.comp-cards>div>div>p{
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* blog styles */
+.blog-cards{
+    width: 980px;
+}
+.blog-cards>p{
+    font-family: Monument Extended;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 125%;
+/* identical to box height, or 40px */
+
+letter-spacing: 0.05em;
+
+color: #0B132B;
+    margin-bottom: 42px;
+    margin-top: 112px;
+}
+.compImg{
+    width: 247px;
+height: 142px;
+border-radius: 7px;
+    margin-right: 53px;
+    cursor: pointer;
+}
+.indivisual-cards>div{
+    display: flex;
+    margin-bottom: 42px;
+    margin-top: 21px;
+}
+.blog-cards>div{
+    display: flex;
+    justify-content: space-between;
+}
+.blog-tagline{
+    font-family: Gilroy;
+font-style: normal;
+letter-spacing: 0.05em;
+font-size: 24px;
+line-height: 125%;
+color: #000000;
+cursor: pointer;
+}
+.blog-writter{
+    font-family: Gilroy;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 125%;
+color: #000000;
+margin-top: 17px;
+margin-bottom: 4px;
+letter-spacing: 0.05em;
+}
+.Load-Blog{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 56px;
+}
+.Load-Blog>button{
+    width: 200px;
+    height: 53.33px;
+    border: 2px solid #00C1D4;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    color: #00C1D4;
+    
+}
+.Load-Blog>button:hover{
+    border: 3px solid #00C1D4;
+    cursor: pointer;
+    background-color:  #bddde0;
+}
+.blogs-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blog-date{
+    font-family: Gilroy;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 125%;
+color: #A3A3A3;
+letter-spacing: 0.05em;
+}
+.hr{
+    color: #A3A3A3;
+
+}

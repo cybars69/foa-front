@@ -1,0 +1,70 @@
+
+.about-blocks67467{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 112px;
+    /* margin-bottom: 112px; */
+}   
+.block1534324{
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    margin-bottom: 144px;
+}
+.block1-info74674{
+    width: 400px;
+
+}
+.block2-info64{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    
+
+}
+.block1-tagline564,.block2-tagline564{
+    font-family: Monument Extended;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 125%;
+/* or 30px */
+
+letter-spacing: 0.05em;
+margin-bottom: 26px;
+color: #0B132B;
+}
+.block1-para645646,.block2-para323{
+    font-family: Gilroy;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 125%;
+/* or 22px */
+margin-bottom: 49px;
+
+color: #000000;
+}
+.Learn-More,.Learn-More2{
+    font-family: Gilroy;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 125%;
+/* identical to box height, or 22px */
+
+text-decoration-line: underline;
+
+color: #0D51FF;
+}
+.block1-imgy834y57{
+    width: 500px;
+height: 250px;
+}
+.block2-tagline,.block2-para,.Learn-More2{
+    display: flex;
+    justify-content: flex-end;
+}

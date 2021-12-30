@@ -1,0 +1,89 @@
+
+.Event{
+    width: 100%;
+    position: relative;
+    
+    align-items: center;
+}
+.bag-img1{
+    width: 100%;
+    height: 450px;
+    z-index: 0;
+    position: absolute;
+}
+.bag-img-parent1{
+    position: absolute;
+    left: 0;
+    
+    width: 100%;
+    height: 450px;
+    animation: animate 20s ease-in-out infinite;
+    background-size: cover;
+}
+
+
+.img-text1{
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+    width: 100%; 
+    height: 450px;
+}
+.tag-line1{
+    
+    font-family: Monument Extended;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    /* line-height: 125%; */
+    text-align: center;
+letter-spacing: 0.05em;
+    color: #ffffff;
+}
+
+.event-text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;  
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 122.5%;
+width: 790px;
+height: 58px;
+
+text-align: center;
+
+color: #FFFFFF;
+ 
+}
+.event-icons--{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 136px;
+    border-bottom: 3px solid #a0a0a0;;
+    margin-bottom: 112px;
+
+}
+
+.event-block-bottom{
+    margin: 0px 230px 544px 230px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

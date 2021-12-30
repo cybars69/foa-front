@@ -1,0 +1,50 @@
+.img-text4643653{
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+    overflow: hidden;
+    background-image: url("./Images/img-1.png");
+    background-repeat: no-repeat;
+    height: 400px;
+}
+  
+.top437563487{
+    width: 100%;
+    margin-left: 0;
+    
+    
+}
+.tagline-17556,
+.tagline-2564{
+    font-style: normal;
+    
+   
+    text-align: center;
+    justify-content: space-between;
+    color: #fff;
+}
+.tagline-17556{
+    height: 106px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.tagline-2564{
+    margin-top: 20px;
+    font-weight:normal;
+    font-size: 20px;
+}
+.tagline-17556>h3{
+    font-family: Monument Extended;
+}
+.tagline-2564>p{
+    font-family: Poppins;
+}
+
+
+  
+
+
+

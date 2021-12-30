@@ -1,0 +1,76 @@
+.Footer{
+    height: 260px;
+    background: #0B132B;
+    color: #FFFFFF;
+    padding: 106px 133px;
+    display: flex;
+    justify-content: space-between ;
+}
+
+.logo1{
+    height: 43px;
+    width: 84px;
+    margin-bottom: 31px;
+}
+.declaration{
+    width: 414px;
+}
+.disc{
+    font-family: Gilroy;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 125%;
+margin-bottom: 34px;
+
+
+color: #FFFFFF;
+}
+.footer-links{
+    display: flex;
+    margin-top: 42px;
+    
+}
+.footer-links>p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    margin-right: 32px;
+    cursor: pointer;
+    
+}
+.footer-links>p:hover{
+    font-size: 21px;
+}
+.rights{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 125%;
+    /* or 20px */
+    
+    
+    color: #FFFFFF;
+}
+.social-media-links,.social-media-links>.About4645645>p{
+    font-family: Gilroy;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 125%;
+
+
+
+color: #FFFFFF;
+
+}
+.social-media-links>p,.social-media-links>.About4645645>p{
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.social-media-links>p:hover,.social-media-links>.About4645645>p:hover{
+    font-weight: 700;
+    border-bottom: 2px solid red;
+}

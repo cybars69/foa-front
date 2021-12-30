@@ -1,0 +1,340 @@
+.page1{
+  background-image:url(./login_background.png) ;
+  background-position: center;
+}
+.login__container {
+  margin: auto;
+ background-color: #FFFFFF;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  
+  padding: 20px;
+  border: none;
+  box-shadow: 10px 10px 30px rgba(27, 26, 26, 0.25);
+  /* border: 1px solid rgb(143, 128, 128); */
+}
+.login__container > h1 {
+  
+  font-weight: 500;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  font-family: Gilroy;
+  font-style: medium;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 48px;
+  text-align: start;
+  /* identical to box height */
+
+  color: #303030;
+}
+.login__container > h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #a3a3a3;
+}
+.login__container>form>h4{
+  font-family: Gilroy;
+  font-style: Regular;
+  font-size: 14px;
+  margin-left: 40px;
+  color: #A3A3A3;
+  margin-bottom: 5px;
+
+}
+.login__container > form > h5 {
+  margin-bottom: 5px;
+  color: rgb(12, 14, 14);
+}
+.login__container > form > input {
+  /* height: 30px; */
+ 
+  align-self: center;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  background-color: white;
+  width: 363px;
+  /* width: 413px; */
+  height: 53px;
+  left: 513px;
+  top: 323px;
+    border:  solid #A3A3A3;
+  background: #FFFFFF;
+  border-radius: 7px;
+  padding-left: 15px;
+  font-family: Gilroy;
+  font-size: medium;
+  
+  stroke: solid, #A3A3A3;
+}
+.input_Password1{
+  width: 463px;
+  height: 53px;
+  left: 513px;
+  top: 323px;
+    border: none;
+  background: #f6f6f6;
+  border-radius: 7px;
+  padding-left: 15px;
+  text-size-adjust: 10px;
+  font-family: Gilroy;
+  font-size: medium;
+  letter-spacing: 2px;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  color: #a3a3a3;
+}
+.login__container > p {
+  margin-top: 15px;
+  
+  font-size: 12px;
+}
+.login__logo1 {
+  display: flex;
+  width: 100px;
+  object-fit: contain;
+  padding-top: 20px;
+  margin-left: 8%;
+  margin-bottom: 20px;
+}
+.login__signInButton1 {
+ align-self: flex-start n;
+  width: 363px;
+  
+  height: 53px;
+  left: 513px;
+  top: 530px;
+  margin-left: 40px;
+border: none;
+  background: #0d51ff;
+  
+  border-radius: 7px;
+}
+.login__signInButton1:hover{
+  
+    
+    background: #1747f3;
+}
+.login__signInButton1 > p {
+  font-family: poppins;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 2px;
+  /* identical to box height */
+ 
+  color: #ffffff;
+}
+
+.login__registerButton {
+  width: 100%;
+  height: 30px;
+
+  border-radius: 2px;
+  border: 1px solid;
+
+  margin-top: 10px;
+  border-color: darkgray;
+}
+.login__container>p{
+    
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+align-self: center;
+text-align: center;
+
+color: #A3A3A3;
+
+}
+.signUp2{
+    text-decoration: none;
+    color: #2E59F3;
+    
+
+}
+.signUp2:hover{
+    
+    color: #193ec5;
+    
+}
+
+.forgot_Password1{
+   
+/* Forget Password? */
+
+text-decoration: none;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: right;
+align-content: flex-end;
+text-align: end;
+margin-right : 60px;
+margin-bottom: 10px;
+
+color:  #2E59F3;
+;
+
+}
+.forgot_Password1:hover{
+  color: #0236f0;
+  
+}
+.rem{
+  display: flex ;
+    margin-top: -5px;
+    margin-bottom: 30px;
+    width: 500px;
+    align-self: flex-end;
+}
+.fa-envelope{
+  size: 4x;
+}
+.fa{
+ margin-left: 3px;
+ 
+}
+.BsFillEyeFill2{
+  position: absolute;
+  top: 50%;
+  right: 38%;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.input_Email1,.input_Password1{
+  outline: none;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .login__logo1{
+    margin-left: 3%;
+  }
+  .login__signInButton1 {
+    margin: auto;
+     width: 263px;
+     
+     height: 53px;
+     left: 513px;
+     top: 530px;
+   border: none;
+     background: #0d51ff;
+     border-radius: 7px;
+   }
+   .login__container > form > input {
+    /* height: 30px; */
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 263px;
+    /* width: 413px; */
+    height: 53px;
+    left: 513px;
+    top: 323px;
+    border:  solid #A3A3A3;
+  background: #FFFFFF;
+      
+    
+    border-radius: 7px;
+  }
+  .input_Password{
+    width: 350px;
+    height: 53px;
+    left: 513px;
+    top: 323px;
+      border: none;
+    background: #f6f6f6;
+    border-radius: 7px;
+  }
+  .login__container {
+    margin: auto;
+   
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    /* border: 1px solid rgb(143, 128, 128); */
+  }
+  .check_remember{
+    width: 20px;
+height: 20px;
+left: 513px;
+top: 490px;
+
+background: #F6F6F6;
+border-radius: 5px;
+}
+.rememberMe{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+
+color: #A3A3A3;
+
+}
+.forgot_Password1{
+   
+/* Forget Password? */
+
+text-decoration: none;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: right;
+margin-left: 100px;
+
+color: #a3a3a3;
+
+}
+.rem{
+    margin-top: -5px;
+    margin-bottom: 30px;
+    width: 400px;
+    align-self: center;
+}
+.BsFillEyeFill2{
+  position: absolute;
+  top: 305px;
+  right: 125px;
+}
+}

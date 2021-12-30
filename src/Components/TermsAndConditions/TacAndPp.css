@@ -1,0 +1,31 @@
+.content3992bhc>h1{
+    font-family: Gilroy;
+    font-style: Regular;
+    font-size: 18px;
+    align-content: Left;
+    vertical-align: Top;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    margin-left: 150px;
+    margin-right: auto;
+}
+.content3992bhc>p{
+    font-family:gilroy;
+    font-style: regular;
+    font-size:18px;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 32px;
+    margin-bottom:10px;
+    line-height: 27px;
+
+}
+.content3992bhc{
+    margin-bottom: 200px;
+}
+.content3992bhc>p>ul{
+    margin-left: 15px;
+}

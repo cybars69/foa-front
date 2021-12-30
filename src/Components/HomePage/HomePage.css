@@ -1,0 +1,83 @@
+.top,.bottom,.subscribe{
+    /* margin-left:80px;
+    margin-right:80px; */
+    max-height: max-content;
+}
+.hrizontal-line{
+    margin-bottom: 50px;
+}
+.Vector{
+    width: 72px;
+    height: 63px;
+    
+}
+.subscribe>div{
+    display: flex;
+}
+.subscribe{
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+.subscribe>div>p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 121.5%;
+    margin-top: 9px;
+    color: #282828;
+    margin-left: 22px;
+}
+.name-Email-input-box>input{
+    width: 306px;
+    height: 50px;
+    border: 1px solid #999999;
+    box-sizing: border-box;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 100%;
+    color: #454545;
+    margin-right: 20px;
+    text-align: justify;
+}
+.name-Email-input-box>button{
+    width: 195px;
+    height: 50px;
+    background: #000000;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+.name-Email-input-box>button:hover{
+    font-size: 23px;
+}
+@media screen and (max-width: 768px) {
+    .NavigationBar{
+        /* display: none; */
+        z-index: 1;
+    }
+    .Topbar{
+        position: absolute;
+    }
+    .top{
+        position: relative;
+    }
+}
+@media screen and (max-width: 991px) {
+    .top,.bottom,.subscribe{
+        margin-left:0px;
+        margin-right:0px;
+        
+    }
+    .Topbar{
+        position: absolute;
+    }
+        /* .NavigationBar{
+            display: none;
+        } */
+}

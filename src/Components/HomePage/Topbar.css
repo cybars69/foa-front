@@ -1,0 +1,127 @@
+
+.topbar{
+    width: 100%;
+    position: relative;
+    
+    align-items: center;
+}
+.bag-img{
+    width: 100%;
+    height: 450px;
+    z-index: 0;
+    position: absolute;
+}
+.bag-img-parent{
+    position: absolute;
+    left: 0;
+    
+    width: 100%;
+    height: 450px;
+    animation: animate 20s ease-in-out infinite;
+    background-size: cover;
+}
+@keyframes animate{
+    0%{
+        background-image: url(/src/image3.png);
+    }
+    25%{
+        background-image: url(/src/img2.jpeg);
+    }
+    50%{
+        background-image: url(/src/img3.jpeg);
+    }
+    75%{
+        background-image: url(/src/img4.jpeg);
+    }
+    100%{
+        background-image: url(/src/image3.png);
+    }
+}
+
+.img-text{
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+    width: 100%; 
+    height: 450px;
+}
+.tag-line{
+    
+    font-family: Monument Extended;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    /* line-height: 125%; */
+    text-align: center;
+letter-spacing: 0.05em;
+    color: #ffffff;
+}
+.Rescue-Mission{
+    width: 200px;
+    height: 52px;
+    background: #FFFFFF;
+    border-radius: 7px;
+    font-family: Gilroy;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #2E59F3;
+
+border: none;
+cursor: pointer;
+}
+.Rescue-Mission:hover{
+    background: #2E59F3;
+border-radius: 7px;
+font-family: Gilroy;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+border: 2px solid #FFFFFF;
+color: #FFFFFF;
+
+}
+.topbar-button{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;   
+}
+.donate-now-button{
+    width: 200px;
+height: 52px;
+background: #2E59F3;
+border-radius: 7px;
+font-family: Gilroy;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+border: none;
+color: #FFFFFF;
+margin-left: 30px;
+cursor: pointer;    
+}
+.donate-now-button:hover{
+    width: 200px;
+    height: 52px;
+    background: #FFFFFF;
+    border-radius: 7px;
+    font-family: Gilroy;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+border: 2px solid #2E59F3;
+color: #2E59F3;
+
+}
+
+
+
+
